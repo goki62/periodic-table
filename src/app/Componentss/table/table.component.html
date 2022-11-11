@@ -4,7 +4,8 @@
     #el
     class="element"
     [ngStyle]="{ 'grid-row': element.ypos, 'grid-column': element.xpos }"
-    [ngClass]="element.phase"
+    [ngClass]="element.category"
+    
     (mouseenter)="canHover && onMouseEnter(element)"
     (click)="selectElement(el, element)"
   >

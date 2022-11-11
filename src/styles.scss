@@ -9,17 +9,36 @@ body {
   background-color: rgb(53, 53, 53);
 }
 
-.Gas {
-  border: 2px solid red;
-  color: red;
-}
 
-.Solid {
-  border: 2px solid #42c1fc;
-  color: #42c1fc;
-}
 
-.Liquid {
-  border: 2px solid rgb(0, 110, 255);
-  color: rgb(0, 110, 255);
+.metalloid {
+  color: #1e445d;
+  
+}
+.diatomic-nonmetal{
+  color: #d81159;
+}
+.polyatomic-nonmetal {
+  color: #00a000;
+}
+.actinide {
+  color: #8671f0;
+}
+.lanthanide {
+  color: #008f7a;
+}
+.noble-gas {
+  color: #332b77f8;
+}
+.post-transition-metal{
+  color: #7f4800;
+}
+.transition-metal{
+  color: #815c55;
+}
+.alkaline-earth-metal{
+  color: #e45143;
+}
+.alkali-metal{
+  color:#8f2d56 ;
 }
