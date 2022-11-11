@@ -1,1 +1,11 @@
-<app-gridlist></app-gridlist>
+<div class="wrapper">
+  <div class="header-wrapper">
+    <app-header></app-header>
+  </div>
+  <div class="info-tab-wrapper">
+    <app-info-tab [element]="selectedElement"></app-info-tab>
+  </div>
+  <div class="table-wrapper">
+    <app-table [data]="data" (dataEmitter)="onEmit($event)"></app-table>
+  </div>
+</div>

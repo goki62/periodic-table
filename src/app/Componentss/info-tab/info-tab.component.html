@@ -1,0 +1,16 @@
+<div class="container">
+  <div *ngIf="element" class="data-wrapper">
+    <div class="element-diagram"  [ngClass]="element.phase">
+      <div class="element-position">{{ element.number }}</div>
+      <div class="element-symbol">{{ element.symbol }}</div>
+      <div class="element-name">{{ element.name }}</div>
+      <div class="element-weight">{{ element.atomicMass }}</div>
+    </div>
+
+    <div class="element-data">
+      <span class="element-data-row" *ngFor="let key of elementKeys"
+        ><b>{{ key.label }}:</b> {{ element[key.value] }}<br
+      /></span>
+    </div>
+  </div>
+</div>

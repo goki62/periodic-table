@@ -1,0 +1,50 @@
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, 75px);
+  grid-template-rows: repeat(10, 75px);
+  grid-gap: 4px;
+  position: relative;
+  width: 100%;
+  margin: 20px;
+}
+
+.element {
+  background: #101318;;
+  // border: 1px solid #aaa;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  padding: 5px;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.element:hover {
+  cursor: pointer;
+  transform: scale(1.25, 1.25);
+  z-index: 1;
+}
+
+.hovered {
+  transform: scale(1.25, 1.25);
+  z-index: 1;
+}
+
+.element-atomic-number {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.element-data {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element-symbol {
+  font-size: 16px;
+}

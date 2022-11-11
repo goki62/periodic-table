@@ -1,0 +1,25 @@
+* {
+  background-color: #28282b;
+  overflow: hidden;
+  font-family: FredokaOne;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 60px repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.info-tab-wrapper {
+  grid-area: 2 / 1 / 9 / 2;
+}
+.header-wrapper {
+  margin: 0;
+  grid-area: 1 / 1 / 2 / 6;
+}
+.table-wrapper {
+  grid-area: 2 / 2 / 9 / 6;
+  display: flex;
+  justify-content: center;
+}

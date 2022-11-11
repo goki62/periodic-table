@@ -1,0 +1,19 @@
+<div class="periodic-table">
+  <div
+    *ngFor="let element of data"
+    #el
+    class="element"
+    [ngStyle]="{ 'grid-row': element.ypos, 'grid-column': element.xpos }"
+    [ngClass]="element.phase"
+    (mouseenter)="canHover && onMouseEnter(element)"
+    (click)="selectElement(el, element)"
+  >
+    <div class="element-atomic-number">
+      <small className="number">{{ element.number }}</small>
+    </div>
+    <div class="element-data">
+      <strong class="element-symbol">{{ element.symbol }}</strong>
+      <span className="name" [ngStyle]="{'letter-spacing': element.name.length > 10 ? '-2px' : '0px' }">{{ element.name }}</span>
+    </div>
+  </div>
+</div>

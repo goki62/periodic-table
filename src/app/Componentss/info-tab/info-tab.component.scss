@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #28282b;
+  color: white;
+}
+
+.element-data {
+  width: 100%;
+}
+
+.element-data-row {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.element-data-row:hover {
+  background-color: #3f3f44;
+  border-spacing: 10px;
+  transition: all ease-in-out 0.1s;
+}
+
+.data-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element-diagram {
+  min-width: 80px;
+  width: 150px;
+  background-color: #525258;
+  margin: 10px;
+  padding: 10px;
+  font-weight: lighter;
+  height: 104px;
+  border-radius: 12px;
+}
+
+.element-symbol {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.element-description {
+  padding: 16px;
+}
+
+.element-description-attribution {
+  opacity: 0.5;
+}
