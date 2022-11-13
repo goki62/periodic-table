@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Paytone+One&display=swap');
 .container {
   display: flex;
   justify-content: center;
@@ -9,4 +11,55 @@
 
 .title {
   margin: 0px;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 30px;
+}
+
+.Properties{
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 26px;
+  font-family: 'Concert One', cursive;
+  color: #bfbfc5;
+  background-color:#1c1c1f0e ;
+  border-width: 3px;
+  
+  &:hover {
+    cursor: pointer;
+    opacity: 70%;
+    color: #c0d6e4;
+    background-color: #101013;
+  }
+  &:active {
+    opacity: 30%;
+    transition: opacity 0.1s;
+    
+  }
+}
+
+  
+
+
+.Electrons{
+  border-radius: 10px;
+  height: 50px;
+  font-size: 26px;
+  font-family: 'Concert One', cursive;
+  color: #bfbfc5;
+  background-color:#1c1c1f0e ;
+  border-width: 3px;
+  
+  &:hover {
+    cursor: pointer;
+    opacity: 70%;
+    color: #c0d6e4;
+    background-color: #101013;
+    // #0c90e9
+  }
+  &:active {
+    opacity: 30%;
+    transition: opacity 0.1s;
+  }
 }

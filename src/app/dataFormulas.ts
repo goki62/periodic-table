@@ -914,7 +914,7 @@ compound: CCl2F2,
 compound: CCl4	,
  fName: 'carbon tetrachloride tetrachloromethane'
 },{
-compound: C(CN)4,	
+compound: C(CN)*4,	
  fName: 'tetracyanomethane'
 },{
 compound: CFCl3	,
@@ -929,7 +929,7 @@ compound: CHCl3	,
 compound: CHClF2	,
  fName: 'chlorodifluoromethane'
 },{
-compound: CH(CN)3 ,	
+compound: CH(CN)*3 ,	
  fName: 'cyanoform'
 },{
 compound: CHNO	,
@@ -965,13 +965,13 @@ compound: CH2Cl2,
 compound: CH2ClF,	
  fName: 'chlorofluoromethane'
 },{
-compound: CH2(CN)2	,
+compound: CH2(CN)*2	,
  fName: 'malononitrile'
 },{
 compound: CH2O	,
  fName: 'formaldehyde'
 },{
-compound: CH2(OH)2,	
+compound: CH2(OH)*2,	
  fName: 'methanediol'
 },{
 compound: CH2OHCH2OH,	
@@ -1003,1984 +1003,1984 @@ compound: CH3CH2CH2OH,
  },{
 compound: CH3CH2CONH2,
  fName: '	propanamide'
-},
+},{
 compound: CH3CH2COOH,
  fName: '	propionic acid'
-
+},{
 compound: CH3CH2OCH2CH3,
  fName: '	diethyl ether ethoxyethane'
-
+},{
 compound: CH3CH2OH,
  fName: '	ethanol'
-
-compound: CH3(CH2)16COOH,
+},{
+compound: CH3(CH2)+(16*COOH),
  fName: '	stearic acid'
-
+},{
 compound: CH3CN,
  fName: '	acetonitrile'
-
+},{
 compound: CH3COCH3,
  fName: '	acetone'
-
+},{
 compound: CH3COOCH3,
  fName: '	methyl acetate'
-
+},{
 compound: CH3COCl,
  fName: '	acetyl chloride'
-
+},{
 compound: CH3CONH2,
  fName: '	acetamide ethanamide'
-
+},{
 compound: CH3COO,
  fName: '	acetate ion'
-
+},{
 compound: CH3COOCHCH2,
  fName: '	vinyl acetate'
-
+},{
 compound: CH3COOCH2C6H5,
  fName: '	benzyl acetate'
-
-compound: CH3COO(CH2)2CH(CH3)2,
+},{
+compound: CH3COO(CH2)*(2+CH)(CH3)*2,
  fName: '	isoamyl acetate'
-
+},{
 compound: CH3COOH,
  fName: '	acetic acid ethanoic acid'
-
+},{
 compound: CH3COONa,
  fName: '	sodium acetate'
-
+},{
 compound: CH3COOK,
  fName: '	potassium acetate'
-
+},{
 compound: CH3COORb,
  fName: '	rubidium acetate'
-
+},{
 compound: CH3COOCs,
  fName: '	caesium acetate'
-
-compound: (CH3CO)2O,
+},{
+compound: (CH3CO)(2*O),
  fName: '	acetic anhydride'
-
+},{
 compound: CH3Cl,
  fName: '	chloromethane methyl chloride'
-
+},{
 compound: CH3HgCH3,
  fName: '	dimethylmercury'
-
+},{
 compound: CH3I,
  fName: '	iodomethane methyl iodide'
-
+},{
 compound: CH3OCH3,
  fName: '	dimethyl ether'
-
+},{
 compound: CH3NH2,
  fName: '	methylamine'
-
+},{
 compound: CH3NO,
  fName: '	oxaziridine'
-
+},{
 compound: CH3OCs,
  fName: '	caesium methoxide'
-
+},{
 compound: CH3OH,
  fName: '	methanol'
- 
+ },{
 compound: CH3OK,
  fName: '	potassium methoxide'
-
+},{
 compound: CH3OLi,
  fName: '	lithium methoxide'
-
+},{
 compound: CH3ONa,
  fName: '	sodium methoxide'
-
+},{
 compound: CH3ORb,
  fName: '	rubidium methoxide'
-
+},{
 compound: CH3SCH3,
  fName: '	dimethyl sulfide'
-
+},{
 compound: CH3SH,
  fName: '	methanethiol'
-
+},{
 compound: (CH3)2CHOH,
  fName: '	isopropyl alcohol '
-
+},{
 compound: (CH3)2CO,
  fName: '	acetone'
-
+},{
 compound: (CH3)2C2O4,
  fName: '	dimethyl oxalate'
-
+},{
 compound: (CH3)2NNH2,
  fName: '	dimethyl hydrazine'
-
+},{
 compound: (CH3)2NH,
  fName: '	dimethylamine'
-
+},{
 compound: (CH3)2S + CH2CH2COO,
  fName: '	dimethylsulfoniopropionate'
-
+},{
 compound: (CH3)3CCl,
  fName: '	t - butyl chloride'
-
+},{
 compound: (CH)3COH,
  fName: '	t - butyl alcohol'
-
+},{
 compound: (CH3)3COOC(CH3)3,
  fName: '	di - t - butyl peroxide'
-
+},{
 compound: (CH3)3N,
  fName: '	trimethylamine'
-
+},{
 compound: CH4,
  fName: '	methane natural gas'
-
+},{
 compound: CH4N2O2,
  fName: '	hydroxycarbamide'
-
+},{
 compound: CH5N3,
  fName: '	Guanidine'
-
+},{
 compound: CN,
  fName: '	cyanide ion'
-
+},{
 compound: (CN)2,
  fName: '	cyanogen'
-
+},{
 compound: C(NH2)3NO3,
  fName: '	guanidine nitrate'
-
+},{
 compound: CNO,
  fName: '	cyanate ion'
-
+},{
 compound: CO,
  fName: '	carbon monoxide'
-
+},{
 compound: COCl2,
  fName: '	phosgene'
-
+},{
 compound: CO2,
  fName: '	carbon dioxide'
-
+},{
 compound: CO3,
  fName: '	carbon trioxide'
-
+},{
 compound: CO3-2,
  fName: '	carbonate ion'
-
+},{
 compound: CS2	,
  fName: 'carbon disulfide'
-
+},{
 compound: C2H2,
  fName: '	acetylene'
-
+},{
 compound: C2H2O2,
  fName: '	glyoxal'
-
+},{
 compound: C2H3Cl,
  fName: '	vinyl chloride'
-
+},{
 compound: C2H3NO,
  fName: '	glycolonitrile'
-
+},{
 compound: C2H3O2,
  fName: '	acetate ion'
- 
+},{
 compound: C2H4,
  fName: '	ethylene'
-
+},{
 compound: C2H4Cl2,
  fName: '	ethylene dichloride'
-
+},{
 compound: C2H4N4,
  fName: '	3 - amino - 1, 2, 4 - triazole'
-
+},{
 compound: C2H4O,
  fName: '	ethylene oxide'
-
+},{
 compound: C2H4O2,
  fName: '	acetic acid'
-
+},{
 compound: C2H5Br,
  fName: '	bromoethane'
-
+},{
 compound: C2H5NH2,
  fName: '	ethylamine'
-
+},{
 compound: C2H5NO2,
  fName: '	glycine '
-
+},{
 compound: C2H5O,
  fName: '	ethoxide ion'
-
+},{
 compound: C2H5OH	,
  fName: '  ethanol'
-
+},{
 compound: (C2H5)2NH,
  fName: '	diethylamine'
-
+},{
 compound: C2H5OCs,
  fName: ' 	caesium ethoxide'
-
+},{
 compound: C2H5OK,
  fName: ' 	potassium ethoxide'
-
+},{
 compound: C2H5ONa,
  fName: ' 	sodium ethoxide'
-
+},{
 compound: C2H5ORb,
  fName: '	rubidium ethoxide'
-
+},{
 compound: C2H6,
  fName: '	ethane'
-
+},{
 compound: C2H6OS,
  fName: ':	dimethyl sulfoxide'
-
+},{
 compound: C2H7NO,
  fName: '	ethanolamine'
-
+},{
 compound: C2H7NO2,
  fName: '	ammonium acetate'
-
+},{
 compound: C2H7NO3S,
  fName: '	taurine'
-
+},{
 compound: C2O42,
  fName: '	oxalate ion'
-
+},{
 compound: CH3ClO4,
  fName: '	Methyl perchlorate'
-
+},{
 compound: C3H3Cl3,
  fName: '	1, 1, 3 - Trichloropropene'
-
+},{
 compound: C3HN,
  fName: '	cyanopolyyne'
-
+},{
 compound: C3H3Cl3,
  fName: '	1, 1, 3 - Trichloropropene'
-
+},{
 compound: C3H3N,
  fName: '	azete'
-
+},{
 compound: C3H4,
  fName: '	Propadiene'
-
+},{
 compound: C3H4N2,
  fName: '	imidazole'
-
+},{
 compound: C3H4N2S,
  fName: '	aminothiazole'
-
+},{
 compound: C3H4O3,
  fName: '	pyruvic acid'
-
+},{
 compound: C3H4O4,
  fName: '	malonic acid'
-
+},{
 compound: C3H5NO,
  fName: '	acrylamide'
-
+},{
 compound: C3H5N3,
  fName: '	3 - amino - 1H - pyrazole'
-
+},{
 compound: C3H5N3O9,
  fName: '	nitroglycerine'
-
+},{
 compound: C3H6,
  fName: '	cyclopropane'
-
+},{
 compound: C3H6O2,
  fName: '	ethyl formate'
-
+},{
 compound: C3H6O2S,
  fName: '	2 - Mercaptopropionic acid'
-
+},{
 compound: C3H6O2S,
  fName: '	3 - Mercaptopropionic acid'
-
+},{
 compound: C3H7N,
  fName: '	azetidine'
-
+},{
 compound: C3H7N3,
  fName: '	n - Propyl azide'
-
+},{
 compound: C3H7NO2,
  fName: '	α - alanine'
-
+},{
 compound: C3H7NO2S,
  fName: '	cysteine'
-
+},{
 compound: C3H7NO3,
  fName: '	serine'
-
+},{
 compound: C3H7P,
  fName: '	Phosphetane'
-
+},{
 compound: C3H8,
  fName: '	propane'
-
+},{
 compound: C3H8NO5P,
  fName: '	glyphosate'
-
+},{
 compound: C3H8O,
  fName: '	propanol'
-
+},{
 compound: C3H8O2,
  fName: '	propylene glycol'
-
+},{
 compound: C3H8O2,
  fName: '	1, 3 - propanediol'
-
+},{
 compound: C3H8O3,
  fName: '	glycerol'
-
+},{
 compound: C3H9N3,
  fName: '	1, 3, 5 - triazinane'
-
+},{
 compound: C3N3(OH)3,
  fName: '	cyanuric acid'
-
+},{
 compound: C3N12,
  fName: '	cyanuric triazide'
-
+},{
 compound: C4H2,
  fName: '	diacetylene'
-
+},{
 compound: C4I2,
  fName: '	diiodobutadiyne'
- 
+ },{
 compound: C4H2BrClN2,
  fName: '	5 - bromo - 2 - chloropyrimidine'
-
+},{
 compound: C4H2Cl2N2,
  fName: '	2, 4 - dichloropyrimidine'
-
+},{
 compound: C4H3Cl2N3,
  fName: '	2 - amino - 4, 6 - dichloropyrimidine'
-
+},{
 compound: C4H3FN2O2,
  fName: '	fluorouracil'
-
+},{
 compound: C4H4,
  fName: '	vinylacetylene'
-
+},{
 compound: C4H4FN3O,
  fName: '	flucytosine'
-
+},{
 compound: C4H4N2O2,
  fName: '	uracil'
-
+},{
 compound: C4H4N4,
  fName: '	diaminomaleonitrile'
-
+},{
 compound: C4H4N4,
  fName: '	3 - aminopyrazole - 4 - carbonitrile'
-
+},{
 compound: C4H4N4,
  fName: '	1, 3, 5, 7 - tetrazocine'
-
+},{
 compound: C4H4O,
  fName: '	furan'
-
+},{
 compound: C4H5FO2,
  fName: '	Methyl 2 - fluoroacrylate'
-
+},{
 compound: C4H5N3O,
  fName: '	cytosine'
-
+},{
 compound: C4H6N2,
  fName: '	fomepizole'
-
+},{
 compound: C4H6N2,
  fName: '	1 - methylimidazole'
-
+},{
 compound: C4H6N2,
  fName: '	4 - methylimidazole'
-
+},{
 compound: C4H6N2S,
  fName: '	methimazole'
-
+},{
 compound: C4H6N4O,
  fName: '	2, 4 - diamino - 6 - hydroxypyrimidine'
-
+},{
 compound:C4H6O2,
  fName: '	1, 4 - Butynediol'
-
+},{
 compound:C4H6O2,
  fName: '	gamma - Butyrolactone'
-
+},{
 compound:C4H6O2,
  fName: '	crotonic acid'
-
+},{
 compound:C4H6O2,
  fName: '	diacetyl'
-
+},{
 compound:C4H6O2,
  fName: '	diepoxybutane'
-
+},{
 compound:C4H6O2,
  fName: '	1, 4 - Dioxene'
-
+},{
 compound:C4H6O2,
  fName: '	isocrotonic acid'
-
+},{
 compound:C4H6O2,
  fName: '	methacrylic acid'
-
+},{
 compound:C4H6O2,
  fName: '	methyl acrylate'
-
+},{
 compound:C4H6O2,
  fName: '	succinaldehyde'
-
+},{
 compound:C4H6O2,
  fName: '	vinyl acetate'
-
+},{
 compound:C4H6O4,
  fName: '	succinic acid'
-
+},{
 compound:C4H7BrO2,
  fName: '	2 - bromobutyric acid'
-
+},{
 compound:C4H7KO3,
  fName: '	potassium oxybate'
-
+},{
 compound:C4H7NaO3,
  fName: '	sodium oxybate'
-
+},{
 compound:(C4H7NO)n,
  fName: '        Poly(N - vinylacetamide)'
-
+},{
 compound:C4H7NO2,
  fName: '	1 - Aminocyclopropanecarboxylic acid'
-
+},{
 compound:C4H7NO3,
  fName: '	aceturic acid'
-
+},{
 compound:C4H7NO4,
  fName: '	aspartic acid'
-
+},{
 compound:C4H8	,
  fName: '    cyclobutane'
-
+},{
 compound:C4H8N2O3,
  fName: '	asparagine'
-
+},{
 compound: C4H8O,
  fName: '	tetrahydrofuran'
-
+},{
 compound: C4H8O2,
  fName: '	ethyl acetate'
-
+},{
 compound: C4H8O3,
  fName: '	gamma - Hydroxybutyric acid'
-
+},{
 compound: C4H9ClHg,
  fName: '	n - Butylmercuric chloride'
-
+},{
 compound: C4H9Li,
  fName: '	n - butyllithium'
-
+},{
 compound: C4H9NO2,
  fName: '	γ - aminobutyric acid'
-
+},{
 compound: C4H9NO3,
  fName: '	threonine'
-
+},{
 compound: C4H9Na,
  fName: '	n - Butylsodium'
-
+},{
 compound: C4H9OH,
  fName: '	butyl alcohol'
-
+},{
 compound: C4H10,
  fName: '	butane 2 - methylpropane'
-
+},{
 compound: C4H10O,
  fName: '	diethyl ether'
-
+},{
 compound: C4H10O2,
  fName: '	1, 2 - Butanediol'
-
+},{
 compound: C4H10O2,
  fName: '	1, 3 - Butanediol'
-
+},{
 compound: C4H10O2,
  fName: '	1, 4 - Butanediol'
-
+},{
 compound: C4H10O2,
  fName: '	2, 3 - Butanediol'
-
+},{
 compound: C4H10O2,
  fName: '	tert - Butyl hydroperoxide'
-
+},{
 compound: C4H10O2,
  fName: '	Dimethoxyethane'
-
+},{
 compound: C4H10O2,
  fName: '	2 - Ethoxyethanol'
-
+},{
 compound: C4H10O2,
  fName: '	1 - Methoxy - 2 - propanol'
-
+},{
 compound: C4H10O3,
  fName: '	diethylene glycol'
-
+},{
 compound: C4H11NO2,
  fName: '	diethanolamine'
-
+},{
 compound:C5H3Br2N,
  fName:'	3, 5 - dibromopyridine'
-
+},{
 compound:C5H3ClN2O2,
  fName:'	2 - chloro - 5 - nitropyridine'
-
+},{
 compound:C5H3ClN4,
  fName:'	6 - chloropurine'
-
+},{
 compound:C5H4NCOOH,
  fName:'	niacin'
-
+},{
 compound:C5H4N2O2,
  fName:'	pyrazinoic acid'
-
+},{
 compound:C5H4N2O4,
  fName:'	orotic acid'
-
+},{
 compound:C5H4N4O,
  fName:'	allopurinol'
-
+},{
 compound:C5H4N4O2,
  fName:'	xanthine'
-
+},{
 compound:C5H4N4S,
  fName:'	mercaptopurine'
-
+},{
 compound:C5H4O,
  fName:'	cyclopentadienone'
-
+},{
 compound:C5H4O2,
  fName:'	furfural'
-
+},{
 compound:C5H4O2S,
  fName:'	b - thiophenic acid'
-
+},{
 compound:C5H5,
  fName:'	cyclopentadienyl anion'
-
+},{
 compound:C5H5BrN2,
  fName:'	2 - amino - 5 - bromopyridine'
-
+},{
 compound:C5H5ClN2,
  fName:'	2 - amino - 4 - chloropyridine'
-
+},{
 compound:C5H5IN2,
  fName:'	2 - amino - 5 - iodopyridine'
-
+},{
 compound:C5H5N,
  fName:'	pyridine'
-
+},{
 compound:C5H5NO,
  fName:'	2 - pyridone'
-
+},{
 compound:C5H5N3O,
  fName:'	pyrazinamide'
-
+},{
 compound:C5H5N3O2,
  fName:'	2 - amino - nitropyridine'
-
+},{
 compound:C5H5N5,
  fName:'	adenine'
-
+},{
 compound:C5H5N5O,
  fName: '	guanine'
-
+},{
 compound:C5H6BNO2,
  fName: '	3 - pyridinylboronic acid'
-
+},{
 compound:C5H6N2,
  fName: '	1, 2 - diazepine'
-
+},{
 compound:C5H6N2OS,
  fName: '	methylthiouracil'
-
+},{
 compound:C5H6N2O2,
  fName: '	thymine'
-
+},{
 compound:C5H6O,
  fName: '	cyclopentenone'
-
+},{
 compound:C5H6O5,
  fName: '	α - Ketoglutaric acid'
-
+},{
 compound:C5H7N3,
  fName: '	3, 4 - diaminopyridine'
- 
+ },{
 compound:C5H8O2,
  fName: '	gamma - Valerolactone'
-
+},{
 compound:C5H9NO,
  fName: '	3 - Dimethylaminoacrolein'
-
+},{
 compound:C5H9NO2,
  fName: '	allylglycine'
-
+},{
 compound:C5H9NO2,
  fName: '	proline'
-
+},{
 compound:C5H9NO4,
  fName: '	glutamic acid'
-
+},{
 compound:C5H10,
  fName: '	cyclopentane'
-
+},{
 compound:C5H10N2O3,
  fName: '	glutamine'
-
+},{
 compound:C5H10O2,
  fName: '	pivalic acid'
-
+},{
 compound:C5H10O2,
  fName: '	valeric acid'
-
+},{
 compound:C5H10O2,
  fName: '	3 - Methylbutanoic acid'
-
+},{
 compound:C5H10O4,
  fName: '	deoxyribose'
-
+},{
 compound:C5H11NO2,
  fName: '	valine'
-
+},{
 compound:C5H11NO2S,
  fName: '	methionine'
-
+},{
 compound:C5H12,
  fName:'	pentane'
-
+},{
 compound:C5H12O2,
  fName:'	neopentyl glycol'
-
+},{
 compound:C5H12O4,
  fName:'	pentaerythritol'
-
+},{
 compound:C5H12O5,
  fName:'	xylitol'
-
+},{
 compound:C5H13N,
  fName:'	N, N - diethylmethylamine,'
-
+},{
 compound:C6H2Cl3NO,
  fName:'	2, 6 - Dichloroquinone - 4 - chloroimideGibbs reagent'
-
+},{
 compound:C6H3Br3O,
  fName:'	2, 4, 6 - Tribromophenol'
-
+},{
 compound:C6H3Cl3O,
  fName:'	2, 4, 6 - Trichlorophenol'
-
+},{
 compound:C6H4BrNO2,
  fName:'	5 - bromonicotinic acid'
-
+},{
 compound:C6H4ClNO2,
  fName:'	2 - chloronicotinic acid'
-
+},{
 compound:C6H4ClN3,
  fName:'	4 - Chlorophenyl azide'
-
+},{
 compound:C6H4ClNO2,
  fName:'	6 - chloro - 2 - pyridinecarboxylic acid'
-
+},{
 compound:C6H4N4,
  fName:'	tricyanoaminopropene'
-
+},{
 compound:C6H4O2,
  fName:'	orthobenzoquinone'
-
+},{
 compound:C6H5Br,
  fName:'	bromobenzene'
-
+},{
 compound:C6H5CHO,
  fName:'	benzaldehyde'
-
+},{
 compound:C6H5CH2OH,
  fName:'	benzyl alcohol'
-
+},{
 compound:C6H5Cl,
  fName:'	chlorobenzene'
-
+},{
 compound:C6H5COCl,
  fName:'	benzoyl chloride'
-
+},{
 compound:C6H5COO,
  fName:'	benzoate ion'
-
+},{
 compound:C6H5COOH,
  fName:'	benzoic acid'
-
+},{
 compound:C6H5F,
-    ,fName: '	fluorobenzene'
-
+    fName: '	fluorobenzene'
+},{
 compound:C6H5I
     ,fName: '	iodobenzene'
-
+},{
 compound:C6H5NO2
     ,fName: '	picolinic acid'
-
+},{
 compound:C6H5NO3
     ,fName: '	4 - nitrophenol'
-
+},{
 compound:C6H5OH
     ,fName: '	phenol'
-
+},{
 compound:C6H5O73
     ,fName: '	citrate ion'
-
+},{
 compound:C6H5NO4
     ,fName: '	Citrazinic acid'
-
+},{
 compound:(C6H5)4Ge
     ,fName: '	tetraphenylgermane'
-
+},{
 compound:(C6H5)2O
     ,fName: '	diphenyl ether'
-
+},{
 compound:(C6H5)3N
     ,fName: '	triphenylamine'
-
+},{
 compound:(C6H5)3P
     ,fName: '	triphenylphosphine'
-
+},{
 compound:C6H6
     ,fName: '	benzene'
-
+},{
 compound:C6H6BClO2
     ,fName: '	4 - chlorophenylboronic acid'
-
+},{
 compound:C6H6BFO2
     ,fName: '	4 - fluorophenylboronic acid'
-
+},{
 compound:C6H6ClN
     ,fName: '	2 - Chloromethylpyridine'
-
+},{
 compound:C6H6IN
     ,fName: '	4 - iodoaniline'
-
+},{
 compound:C6H6N2O
     ,fName: '	nicotinamide'
-
+},{
 compound:C6H6N2O2
     ,fName: '	6 - aminonicotinic acid'
-
+},{
 compound:C6H6O
     ,fName: '	phenol'
-
+},{
 compound:C6H6O2
     ,fName: '	catechol'
-
+},{
 compound:C6H6O3
     ,fName: '	hydroxymethylfurfural'
-
+},{
 compound:C6H7BO2
  ,fName: '	phenylboronic acid'
-
+},{
 compound:C6H7CsO6
  ,fName: '	caesium ascorbate'
-
+},{
 compound:C6H7KO6
  ,fName: '	potassium ascorbate'
-
+},{
 compound:C6H7LiO6
  ,fName: '	lithium ascorbate'
-
+},{
 compound:C6H7N3O
  ,fName: '	isoniazid'
-
+},{
 compound:C6H7NaO6
  ,fName: '	sodium ascorbate'
-
+},{
 compound:C6H7RbO6
  ,fName: '	rubidium ascorbate'
- 
+ },{
 compound:C6H8N2
  ,fName: '	2 - amino - 3 - methylpyridine'
-
+},{
 compound:C6H8N2O2S
  ,fName: '	ethyl 2 - aminothiazole - 4 - carboxylate sulfanilamide'
-
+},{
 compound:C6H8O7
  ,fName: '	citric acid'
-
+},{
 compound:C6H9N3O2
  ,fName: '	histidine'
-
+},{
 compound:C6H9N3O3
  ,fName: '	metronidazole'
-
+},{
 compound:C6H10O2(2R)
  ,fName: '   2 - Methylpent - 4 - enoic acid'
-
+},{
 compound:C6H10O3
  ,fName: '	4 - acetylbutyric acid'
-
+},{
 compound:C6H10O4
  ,fName: '	aceburic acid'
-
+},{
 compound:C6H10O4
  ,fName: '	adipic acid'
-
+},{
 compound:C6H10O4
  ,fName: '	conduritol'
-
+},{
 compound:C6H10O4
  ,fName: '	dianhydrohexitol'
-
+},{
 compound:C6H10O4
  ,fName: '	ethylidene diacetate'
-
+},{
 compound:C6H10O4
  ,fName: '	glucal'
-
+},{
 compound:C6H11NO2
  ,fName: '	cycloleucine pipecolic acid'
-
+},{
 compound:C6H12
  ,fName: '	cyclohexane'
-
+},{
 compound:C6H12N4O3
  ,fName: '	Streptolidine'
-
+},{
 compound:C6H12OS
  ,fName: '	4 - Mercapto - 4 - methyl - 2 - pentanone'
-
+},{
 compound:C6H12O3
  ,fName: '	4 - Hydroxy - 4 - methylpentanoic acid'
-
+},{
 compound:C6H12O6
  ,fName: '	fructose glucose'
-
+},{
 compound:C6H13NO	
  ,fName: '- ethylmorpholine'
-
+},{
 compound:C6H13NO2
  ,fName: '	aminocaproic acid'
-
+},{
 compound:C6H14
  ,fName: '	hexane'
-
+},{
 compound:C6H14N2O2
  ,fName: '	lysine'
-
+},{
 compound:C6H14N4O2
  ,fName: '	arginine'
-
+},{
 compound:C6H14O2
  ,fName: '	1, 6 - hexanediol'
-
+},{
 compound:C6H14O3
  ,fName: '	dipropylene glycol'
-
+},{
 compound:C6H14O3
  ,fName: '	trimethylolpropane'
-
+},{
 compound:C6H14O4
  ,fName: '	triethylene glycol'
-
+},{
 compound:C6H15NO3
  ,fName: '	triethanolamine'
-
+},{
 compound:C6H7N3O3
  ,fName: '	2 - Oxohistidine'
-
+},{
 compound:C6N4
  ,fName: '	tetracyanoethylene'
-
+},{
 compound:C7H4ClFO
  ,fName: '	2 - Chloro - 6 - fluorobenzaldehyde'
-
+},{
 compound:C7H5BrO
  ,fName: '	3 - Bromobenzaldehyde'
-
+},{
 compound:C7H5Cl2NS
  ,fName: '	Chlorthiamide'
-
+},{
 compound:C7H5Cl3O
  ,fName: '	2, 4, 6 - trichloroanisole'
-
+},{
 compound:C7H5F3O
  ,fName:'	2, 4, 6 - trifluoroanisole'
-
+},{
 compound:C7H5FO2
  ,fName:'	2 - fluorobenzoic acid'
-
+},{
 compound:C7H5FO2
  ,fName:'	3 - Fluorobenzoic acid'
-
+},{
 compound:C7H5FO2
  ,fName:'	4 - fluorobenzoic acid'
-
+},{
 compound:C7H5NO4
  ,fName:'	quinolinic acid dipicolinic acid'
-
+},{
 compound:C7H5NS2
  ,fName:'	2 - mercaptobenzothiazole'
-
+},{
 compound:C7H5N3O2
  ,fName:'	7 - nitroindazole'
-
+},{
 compound:C7H6ClF
  ,fName:'	2 - Chloro - 6 - fluorotoluene'
-
+},{
 compound:C7H6N2
  ,fName:'	7 - azaindole'
-
+},{
 compound:C7H6N2
  ,fName:'	Benzimidazole'
-
+},{
 compound:C7H6O
  ,fName:'	tropone'
-
+},{
 compound:C7H6O2
  ,fName:'	benzoic acid'
-
+},{
 compound:C7H6O3
  ,fName:'	salicylic acid'
-
+},{
 compound:C7H6O4
  ,fName:'	protocatechuic acid'
-
+},{
 compound:C7H6O5
  ,fName:'	gallic acid'
-
+},{
 compound:C7H7BO4
  ,fName:'	4 - carboxyphenylboronic acid'
-
+},{
 compound:C7H7NO2
  ,fName:'	4 - aminobenzoic acid'
-
+},{
 compound:C7H7NO3
  ,fName:'	mesalazine'
-
+},{
 compound:C7H7N3
  ,fName:'	benomyl metabolite'
-
+},{
 compound:C7H8
  ,fName:'	toluene'
-
+},{
 compound:C7H8ClN3O4S2
  ,fName:'	hydrochlorothiazide'
-
+},{
 compound:C7H8N4O2
  ,fName:'	theophylline'
-
+},{
 compound:C7H8N4O2
  ,fName:'	theobromine'
-
+},{
 compound:C7H9BO2
  ,fName:'	4 - methylphenylboronic acid'
-
+},{
 compound:C7H9BO3
  ,fName:'	4 - boronoanisole'
-
+},{
 compound:C7H10N2
  ,fName:'	4 - dimethylaminopyridine'
-
+},{
 compound:C7H11NO5
  ,fName:'	N - Acetylglutamic acid'
-
+},{
 compound:C7H12O4
  ,fName:'	diethyl malonate'
-
+},{
 compound:C7H12N2O4
  ,fName:'	aceglutamide'
-
+},{
 compound:C7H14O3
  ,fName:'	n - Butyl lactate'
-
+},{
 compound:C7H14O6
  ,fName:'	bornesitol'
-
+},{
 compound:C7H16
  ,fName:'	heptane'
-
+},{
 compound:C8H4F3IO2
  ,fName:'	Togni reagent II'
-
+},{
 compound:C8H5NO2
  ,fName:'	isatin'
-
+},{
 compound:C8H6BrN
  ,fName:'	5 - bromoindole'
-
+},{
 compound:C8H6ClN
  ,fName:'	4 - chloroindole'
-
+},{
 compound:C8H6Cl2O3
  ,fName:'	2, 4 - dichlorophenoxyacetic acid'
-
+},{
 compound:C8H6N2O
  ,fName:'	4 - quinazolinol'
-
+},{
 compound:C8H6N2O2
  ,fName:'	indazolium - 3 - carboxylate'
-
+},{
 compound:C8H7Cl
  ,fName:'	2 - Chlorostyrene'
-
+},{
 compound:C8H7N
  ,fName:'	indole'
-
+},{
 compound:C8H7NO
  ,fName:'	indol - 4 - ol'
-
+},{
 compound:C8H8
  ,fName:'	cubane'
-
+},{
 compound:C8H8N2OS
  ,fName:'	2 - amino - 6 - methoxybenzothiazole'
-
+},{
 compound:C8H8O3
  ,fName:'	4 - hydroxyphenylacetic acid'
-
+},{
 compound:C8H8O4
  ,fName:'	vanillic acid'
-
+},{
 compound:C8H9NO2
  ,fName:'	acetaminophen'
-
+},{
 compound:C8H9NO2
  ,fName:'	aminomethylbenzoic acid'
-
+},{
 compound:C8H9NO2
  ,fName:'	hydroxydanaidal'
-
+},{
 compound:C8H9NO2
  ,fName:'	methyl anthranilate'
-
+},{
 compound:C8H10IN
  ,fName:'	4 - Iodo - N, N - dimethylaniline'
-
+},{
 compound:C8H10N4O2
  ,fName:'	caffeine'
-
+},{
 compound:C8H11NO
  ,fName:'	tyramine'
-
+},{
 compound:C8H11N5O3
  ,fName:'	aciclovir'
-
-compound:C8H16(1R, 3R)
+},{
+compound:C8H16(1*R, 3*R)
  ,fName:'   - 1, 2, 3 - Trimethylcyclopentane'
-
+},{
 compound:C8H16O2
  ,fName:'	cyclohexanedimethanol'
-
+},{
 compound:C8H16O6
  ,fName:'	pinpollitol'
-
+},{
 compound:C8H16O6
  ,fName:'	viscumitol'
-
+},{
 compound:C8H16O6
  ,fName:'	Eleutheroside C -ethyl galactoside'
-
+},{
 compound:C8H18
  ,fName:'	octane'
-
+},{
 compound:C9H6N2
  ,fName:'	5 - cyanoindole'
-
+},{
 compound:C9H6O3
  ,fName:'	umbelliferone'
-
+},{
 compound:C9H6OS
  ,fName:'	thiochromone'
-
+},{
 compound: C9H7NO
  ,fName: '	8 - hydroxyquinoline'
-
+},{
 compound: C9H7NO2
  ,fName: '	indole - 2 - carboxylic acid'
-
+},{
 compound: C9H8N2
  ,fName: '	5 - aminoisoquinoline'
-
+},{
 compound: C9H8O2
  ,fName: '	cinnamic acid'
-
+},{
 compound: C9H8O3
  ,fName: '	o - coumaric acid'
-
+},{
 compound: C9H8O4
  ,fName: '	aspirin'
-
+},{
 compound: C9H9N
  ,fName: '	methylketol'
-
+},{
 compound: C9H9NO
  ,fName: '	4 - methoxyindole'
-
+},{
 compound: C9H9NO3
  ,fName: '	hippuric acid'
-
+},{
 compound: C9H9NO6	
  ,fName: '    Stizolobic acid'
-
+},{
 compound: C9H10O
  ,fName: '	chavicol'
-
+},{
 compound: C9H10O3
  ,fName: '	paeonol'
-
+},{
 compound: C9H11NO2
  ,fName: '	phenylanine'
-
+},{
 compound: C9H10O
  ,fName: '	cinnamyl alcohol'
- 
+ },{
 compound: C9H11NO3
  ,fName: '	tyrosine'
-
+},{
 compound: C9H11NO4
  ,fName: '     Levodopa'
-
+},{
 compound: C9H12O3
  ,fName: '	4 - Ipomeanol'
-
+},{
 compound: C9H13N5O3
  ,fName: '    Dihydrobiopterin'
-
+},{
 compound: C9H14O3
  ,fName: '	Boonein'
-
+},{
 compound:C9H17NO2
  ,fName: '	gabapentin'
-
+},{
 compound:C9H18N2O2
  ,fName: '	1 - boc - piperazine'
-
+},{
 compound:C9H20
  ,fName: '	nonane'
-
+},{
 compound:C9H20N2O2S2
  ,fName: '	Mono - BOC - cystamine'
-
+},{
 compound:C9H20N2S
  ,fName: '	 N-Di-n-butylthiourea'
-
+},{
 compound:C10H4Br5NO
  ,fName: '	Pentabromopseudilin'
-
+},{
 compound:C10H7NO4
  ,fName: '	6 - Hydroxykynurenic acid'
-
+},{
 compound:C10H7N3S
  ,fName: '	tiabendazole'
-
+},{
 compound:C10H8
  ,fName: '	azulene'
-
+},{
 compound:C10H8
  ,fName: '	naphthalene'
-
+},{
 compound:C10H8O3
  ,fName: '	hymecromone'
-
+},{
 compound:C10H9NO2
  ,fName: '	indole - 3 - acetic acid'
-
+},{
 compound:C10H9N5O
  ,fName: '	kinetin'
-
+},{
 compound:C10H9NO2
  ,fName: '	5 - methoxyindole - 3 - carboxaldehyde'
-
+},{
 compound:C10H10N2O
  ,fName: '	edaravone'
-
+},{
 compound:C10H10N3NaO5
  ,fName: '	Suosan'
-
+},{
 compound:C10H10O2
  ,fName: '	safrole'
-
+},{
 compound:C10H10O4
  ,fName: '	ferulic acid'
-
+},{
 compound:C10H11N3O3S
  ,fName: '	sulfamethoxazole'
-
+},{
 compound:C10H12N2
  ,fName:'	tryptamine'
-
+},{
 compound:C10H12O
  ,fName:'	anethole'
-
+},{
 compound:C10H12O
  ,fName:'	estragole'
-
+},{
 compound:C10H12O2
  ,fName:'	hinokitiol'
-
+},{
 compound:C10H12O2
  ,fName:'	eugenol'
-
+},{
 compound:C10H12O2
  ,fName:'	isoeugenol'
-
+},{
 compound:C10H12O2
  ,fName:'	pseudoisoeugenol'
-
+},{
 compound:C10H12O3
  ,fName:'	coniferyl alcohol'
-
+},{
 compound:C10H13N5O4
  ,fName:'	adenosine'
-
+},{
 compound:C10H14ClNS
  ,fName:'	N - tert - Butylbenzenesulfinimidoyl chloride'
-
+},{
 compound:C10H14Cl2O4Ti
  ,fName:'	Titanium bis(acetylacetonate)dichloride'
-
+},{
 compound:C10H14O
  ,fName:'	mentha spicata herb oil'
-
+},{
 compound:C10H15Br
  ,fName:'	1 - Bromoadamantane'
-
+},{
 compound:C10H15ON
  ,fName:'	ephedrine'
-
+},{
 compound:C10H16
  ,fName:'	limonene'
-
+},{
 compound:C10H16O
  ,fName:'	camphor'
-
+},{
 compound:C10H17NO3
  ,fName:'	boc - 4 - piperidone'
-
+},{
 compound:C10H18N2O8
  ,fName:'	Fructose - asparagine'
-
+},{
 compound:C10H18N4O2S
  ,fName:'	Biotin hydrazide'
-
+},{
 compound:C10H19NO3
  ,fName: '	1 - boc - 4 - piperidinol'
-
+},{
 compound:C10H20N2O2
  ,fName: '	boc - 4 - aminopiperidine'
-
+},{
 compound:C10H20O2
  ,fName: '	Paramenthane hydroperoxide'
-
+},{
 compound:C10H22
  ,fName: '	decane'
-
+},{
 compound:C11H8O2
  ,fName: '	menadione'
-
+},{
 compound:C11H10O
  ,fName: '	β - Naphthol methyl ether'
-
+},{
 compound:C11H11NO2
  ,fName: '	3 - indolepropionic acid'
-
+},{
 compound:C11H12N2O2
  ,fName: '	tryptophan'
-
+},{
 compound:C11H12O3
  ,fName: '	myristicin'
-
+},{
 compound:C11H14N2O
  ,fName: '	5 - methoxytryptamine'
-
+},{
 compound:C11H14O2
  ,fName: '	methyl eugenol'
-
+},{
 compound:C11H14O2
  ,fName: '	methyl isoeugenol'
-
+},{
 compound:C11H16O2
  ,fName: '	Jasmolone'
-
+},{
 compound:C11H19NO4
  ,fName: '	boc - isonipecotic acid'
-
+},{
 compound:C11H21N5O5
  ,fName: '	L - Arginine L - pyroglutamate'
-
+},{
 compound:C11H24
  ,fName: '	undecane'
-
+},{
 compound:C12H11NO5
  ,fName: '	Macromomycin B'
-
+},{
 compound:C12H4Cl6
  ,fName: '	2, 2,3,3, 4, 4-Hexachlorobiphenyl'
-
+},{
 compound:C12H4N4
  ,fName: '	tetracyanoquinodimethane'
-
+},{
 compound:C12H8O4
  ,fName: '	methoxsalen'
-
+},{
 compound:C12H10
  ,fName: '	biphenyl'
-
+},{
 compound:C12H10ClN2O5S
  ,fName: '	furosemide'
-
+},{
 compound:C12H11N3O2
  ,fName: '	Furonazide'
-
+},{
 compound:C12H11N5
  ,fName: '	6 - benzylaminopurine'
-
+},{
 compound:C12H11N7
  ,fName: '	triamterene'
-
+},{
 compound:C12H13NO2
  ,fName: '	indole - 3 - butyric acid'
-
-compound:(C12H14CaO12)n
+},{
+compound:(C12H14CaO12)*n
  ,fName: '	calcium alginate'
-
+},{
 compound:C12H14O4
  ,fName: '	apiole'
-
+},{
 compound:C12H14O4
  ,fName: '	dillapiole'
-
+},{
 compound:C12H15NO
  ,fName: '	1 - benzyl - 4 - piperidone'
-
+},{
 compound:C12H16N2
  ,fName: '	N, N - Dimethyltryptamine'
-
+},{
 compound:C12H16O3
  ,fName: '	asarone'
-
+},{
 compound:C12H16O3
  ,fName: '	elemicin'
-
+},{
 compound:C12H16O3
  ,fName: '	isoelemicin'
-
+},{
 compound:C12H16O3
  ,fName: '	oudenone'
-
+},{
 compound:C12H16O4
  ,fName: '	2, 4, 5 - Trimethoxypropiophenone'
-
+},{
 compound:C12H16O7
  ,fName: '	arbutin'
-
+},{
 compound:C12H17N5O4S
  ,fName: '	thiamine nitrate'
-
+},{
 compound:C12H18N4O2
  ,fname: '     Verofylline'
-
+},{
 compound:C12H18O
  ,fname: '	propofol'
-
+},{
 compound:C12H19N3O7
  ,fname: '	D - Fructose - L - histidine'
-
+},{
 compound:C12H21N3O8
  ,fname: '	Aspartylglucosamine'
-
+},{
 compound:C12H22O4
  ,fname: '	1, 1-Dihydroxydicyclohexyl peroxide'
-
+},{
 compound:C12H22O11
  ,fname: '	maltose,sucrose'
-
+},{
 compound:C12H25N
  ,fname: '	Stenusin'
-
+},{
 compound:C13H20
  ,fname: '	Tetracyclopropylmethane'
-
+},{
 compound:C12H26
  ,fname: '	dodecane'
-
+},{
 compound:C13H10O
  ,fname: '	benzophenone'
-
+},{
 compound:C13H12F2N6O
  ,fname: '	fluconazole'
-
+},{
 compound:C13H12O
  ,fname: '	β - ionone'
-
+},{
 compound:C13H12O2
  ,fname: '	monobenzone'
-
+},{
 compound:C13H14N2O
  ,fname: '	harmaline'
-
+},{
 compound:C13H16N2O2
  ,fname: '	melatonin'
-
+},{
 compound:C13H18O2
  ,fname: '	ibuprofen'
-
+},{
 compound:C13H28
  ,fname: '	tridecane'
-
+},{
 compound:C14H10
  ,fname: '	anthracene'
-
+},{
 compound:C14H10
  ,fname: '	phenanthrene'
-
+},{
 compound: C14H10O14
  ,fName: '	benzoyl peroxide'
-
+},{
 compound: C14H11Cl3N2O3
  ,fName: '	RI - 1'
-
+},{
 compound: C14H11NO3
  ,fName: '	Isooncodine'
-
+},{
 compound: C14H12O3
  ,fName: '	resveratrol'
-
+},{
 compound: C14H13F4N3O2S
  ,fName: '	Flufenacet'
- 
+ },{
 compound: C14H14Cl2N2O
  ,fName: '	enilconazole'
-
+},{
 compound: C14H16N2O4
  ,fName: '    Oxagrelate'
-
+},{
 compound: C14H17F3N3O2
  ,fName: '	TDBzcholine'
-
+},{
 compound: C14H18N2O5
  ,fName: '	aspartame'
-
+},{
 compound: C14H18N4O3
  ,fName: '	trimethoprim'
-
+},{
 compound: C14H18O6
  ,fName: '	Bis(2 - methoxyethyl) phthalate'
-
+},{
 compound: C14H20O5
  ,fName: '	Integrasone'
-
+},{
 compound: C14H30
  ,fName: '	tetradecane'
-
+},{
 compound: C15H10O5
  ,fName: '	apigenin,emodin,genistein'
-
+},{
 compound: C15H10O6
  ,fName: '	luteolin'
-
+},{
 compound: C15H10O7
  ,fName: '	quercetin'
-
+},{
 compound: C15H12N2O
  ,fName: '	carbamazepine'
-
+},{
 compound: C15H12N2O2
  ,fName: '	phenytoin'
-
+},{
 compound: C15H13NO4
  ,fName: '	Darienine'
-
+},{
 compound:C15H18O2
  ,fName: '	Curzerenone'
-
+},{
 compound:C15H18O3
  ,fName: '	Arglabin'
-
+},{
 compound:C15H24O
  ,fName: '	nectaryl'
-
+},{
 compound:C15H32
  ,fName: '	pentadecane'
-
+},{
 compound:C16H13NO4
  ,fName: '	Virstatin'
-
+},{
 compound:C16H14O3
  ,fName: '	ketoprofen'
-
+},{
 compound:C16H19NO4
  ,fName: '	Norscopolamine'
-
+},{
 compound:C16H19NO5
  ,fName: '	Peyonine'
-
+},{
 compound:C16H22FN5O3S
  ,fName: '	LY3372689'
-
+},{
 compound:C16H28N2O6Zn
  ,fName: '	zinc acexamate'
-
+},{
 compound:C16H30N4O4S
  ,fName: '	Biotin PEG2 amine'
-
+},{
 compound:C16H34
  ,fName: '	hexadecane'
-
+},{
 compound:C17H13ClN4
  ,fName: '	alprazolam'
-
+},{
 compound:C17H14F3N3O2S
  ,fName: '	celecoxib'
-
+},{
 compound:C17H14N2
  ,fName: '	Olivacine'
-
+},{
 compound:C17H14O3
  ,fName: '	5 - Methyl - 7 - methoxyisoflavone'
-
+},{
 compound:C17H14N2O5S
  ,fName: '	Calmagite'
-
+},{
 compound:C17H15NO3
  ,fName: '	Noroliveroline'
-
+},{
 compound:C17H16N2O3S
  ,fName: '	TSQ, 6 - methoxy - (8 - p - toluenesulfonamido)quinoline'
-
+},{
 compound:C17H18N2O6
  ,fName: '	nifedipine'
-
+},{
 compound:C17H19N3O3S
  ,fName: '	omeprazole'
-
+},{
 compound:C17H21NO4
  ,fName: '	cocaine'
-
+},{
 compound:C17H22O2
  ,fName: '	cicutoxin'
-
+},{
 compound:C17H22O2
  ,fName: '	oenanthotoxin'
-
+},{
 compound:C17H24O
  ,fName: '	falcarinol'
-
+},{
 compound:C17H24O9
  ,fName: '	Eleutheroside B,Syringin'
-
+},{
 compound:C17H30O8
  ,fName: '	Glyceryl octyl ascorbic acid'
-
+},{
 compound:C17H36
  ,fName: '	heptadecane'
-
+},{
 compound:C18H12Cl2N2O
  ,fName: '	boscalid'
-
+},{
 compound:C18H16N2OS
  ,fName: '	INH1'
-
+},{
 compound:C18H17NO3
  ,fName: '	Oliveroline,Xylopine'
-
+},{
 compound:C18H17NO7
  ,fName: '	Clovamide'
-
+},{
 compound:C18H22O2
  ,fName: '	estrone'
-
+},{
 compound:C18H23NO6
  ,fName: '	Tazopsine'
-
+},{
 compound:C18H24O2
  ,fName: '	estradiol'
-
+},{
 compound:C18H24O3
  ,fName: '	estriol'
-
+},{
 compound:C18H24O4
  ,fName: '	estetrol'
-
+},{
 compound:C18H27NO3
  ,fName: '	capsaicin'
-
+},{
 compound:C18H32O2
  ,fName:'	linoleic acid'
-
+},{
 compound:C18H36O2
  ,fName:'	stearic acid'
-
+},{
 compound:C18H38
  ,fName:'	octadecane'
-
+},{
 compound:C19H10Br2O9S
  ,fName:'	Bromopyrogallol red'
-
+},{
 compound:C19H12N2O
  ,fName:'	6 - Formylindolo(3, 2 - b)carbazole'
-
+},{
 compound:C19H14N2O4
  ,fName:'	C286'
-
+},{
 compound:C19H14O6
  ,fName:'	Landomycinone'
-
+},{
 compound:C19H15ClO4
  ,fName:'	Coumachlor'
-
+},{
 compound:C19H16ClNO4
  ,fName:'	indometacin'
-
+},{
 compound:C19H22N2
  ,fName:'	Eburnamenine'
-
+},{
 compound:C19H22N2O
  ,fName:'	Normacusine B'
-
+},{
 compound:C19H24N2O
  ,fName:'	Eburnamine'
-
+},{
 compound:C19H26O2
  ,fName:'	androstenedione'
-
+},{
 compound:C19H28O2
  ,fName:'	dehydroepiandrosterone'
-
+},{
 compound:C19H28O2
  ,fName:'	testosterone'
-
+},{
 compound:C19H30O2
  ,fName:'	androstenediol'
-
+},{
 compound:C19H30O2
  ,fName:'	dihydrotestosterone'
-
+},{
 compound:C19H40
  ,fName:'	nonadecane'
-
+},{
 compound:C20H17NO6
  ,fName:'	Sibiricine'
-
+},{
 compound: C20H19N
  ,fName: '	N, N - Dibenzylaniline'
-
+},{
 compound: C20H20N4AgS2O8
  ,fName: '	Tetrakis(pyridine)silver(II) peroxydisulfate'
-
+},{
 compound: C20H22N2O
  ,fName: '	Kopsanone'
-
+},{
 compound: C20H22N2O2
  ,fName: '	Pleiocarpamine'
-
+},{
 compound: C20H22O7
  ,fName: '	Saudin'
-
+},{
 compound: C20H23BrN8O
  ,fName: '	BX - 912'
-
+},{
 compound: C20H23NO4
  ,fName: '	Thebacon'
-
+},{
 compound: C20H25NO
  ,fName: '	Diphepanol'
-
+},{
 compound: C20H26O3
  ,fName: '	Crotogoudin'
-
+},{
 compound: C20H27NO11
  ,fName: '	amygdalin'
-
+},{
 compound: C20H28O2
  ,fName: '	tretinoin'
-
+},{
 compound: C20H30O3
  ,fName: '	Neotripterifordin'
-
+},{
 compound: C20H32O5
  ,fName: '	prostacyclin'
-
+},{
 compound: C20H32O5
  ,fName: '	prostaglandin E2'
-
+},{
 compound: C20H34O5
  ,fName: '	dinoprost'
-
+},{
 compound: C20H42
  ,fName: '	eicosane'
-
+},{
 compound: C21H16FN7
  ,fName: '	AMG 319'
-
+},{
 compound: C21H18FN5O5S
  ,fName: '	Avutometinib'
-
+},{
 compound: C21H19ClN4O2
  ,fName: '	Setanaxib'
-
+},{
 compound: C21H20O6
  ,fName: '	curcumin'
-
+},{
 compound: C21H22N2O4
  ,fName: '	Picralinal'
-
+},{
 compound: C21H22O4
  ,fName: '	Taxamairin A'
-
+},{
 compound: C21H23FN2O4
  ,fName: '	Z - FA - FMK'
-
+},{
 compound: C21H24FN6O6P
  ,fName: '	Rovafovir etalafenamide'
-
+},{
 compound: C21H25NO4
  ,fName: '	Yuanhunine'
-
+},{
 compound: C21H26O4
  ,fName: '	Canniprene'
-
+},{
 compound: C21H27N5
  ,fName: '	D75 - 4590'
-
+},{
 compound: C21H30O2
  ,fName: '	progesterone'
-
+},{
 compound: C21H30O2
  ,fName: '	tetrahydrocannabinol'
-
+},{
 compound: C21H36N7O16P3S
  ,fName: '	Coenzyme A'
-
+},{
 compound: C21H39NO3
  ,fName: '	N - Oleoylsarcosine'
-
+},{
 compound: C21H44N2
  ,fName: '	N - Oleyl - 1, 3 - propanediamine'
-
+},{
 compound: C22H23ClN2O2
  ,fName: '	loratadine'
-
+},{
 compound: C22H26O7
  ,fName: '	L - 165041'
-
+},{
 compound: C22H28N2O
  ,fName: '	fentanyl'
-
+},{
 compound: C22H30O8
  ,fName: '	Neurolenin B'
-
+},{
 compound: C23H13Cl2Na3O9S
  ,fName: '	Chrome Azurol S'
-
+},{
 compound: C23H19ClF3NO3
  ,fName: '	cyhalothrin'
-
+},{
 compound: C23H24O4S
  ,fName: '	Kadethrin'
-
+},{
 compound: C23H28N2O
  ,fName: '	Iferanserin'
-
+},{
 compound: C23H28N2O4
  ,fName: '	Pleiocarpine'
-
+},{
 compound: C23H38N2OS
  ,fName: '	Laucysteinamide A'
-
+},{
 compound: C23H41NO2
  ,fName: '	Terminaline'
-
+},{
 compound: C24H17F6NO3
  ,fName: '	Tarocin A'
-
+},{
 compound: C24H29FN6
  ,fName: '	Ralimetinib'
-
+},{
 compound: C24H45CrO6
  ,fName: '	Chromium(III) 2 - ethylhexanoate'
-
+},{
 compound: C25H30O8
  ,fName: '	Kadsurin'
-
+},{
 compound: C25H36O6
  ,fName: '	Pseudopterosin A'
-
+},{
 compound: C26H32N6O11
  ,fName: '	Mirubactin'
-
+},{
 compound: C26H37N3O
  ,fName: '	Tarocin B'
-
+},{
 compound: C26H38O6
  ,fName: '	Pseudopterosin E'
-
+},{
 compound: C27H27Cl2N5O3S
  ,fName: '	JD5037'
-
+},{
 compound: C27H33N3O5
  ,fName: '	Andrimid'
-
+},{
 compound: C27H50O6
  ,fName: '	Axona'
-
+},{
 compound: C28H26ClN5O
  ,fName: '	Basic Black 2'
-
+},{
 compound: C28H37NO8
  ,fName: '	Nargenicin'
-
+},{
 compound: C28H42N4O6
  ,fName: '	Kukoamine A'
-
+},{
 compound:C28H47NO3
  ,fName: '	Pingbeinine'
-
+},{
 compound:C29H42N10O9
  ,fName: '	Argadin'
-
+},{
 compound:C29H40N2O6
  ,fName: '	Dihydromaltophilin'
-
+},{
 compound:C30H19NO9
  ,fName: '	Dynemicin A'
-
+},{
 compound:C30H42O11
  ,fName: '	Decinnamoyltaxinine J'
-
+},{
 compound:C30H46O6
  ,fName: '	Retigeric acid B'
-
+},{
 compound:C33H28O9
  ,fName: '	Rubicordifolin'
-
+},{
 compound:C33H38O11
  ,fName: '	Triptofordin C - 2'
-
+},{
 compound:C34H46O18
  ,fName: '	Eleutheroside D'
-
+},{
 compound:C35H42O14
  ,fName: '	Taxinine M'
-
+},{
 compound:C35H60O6
  ,fName: '	Eleutheroside A'
-
+},{
 compound:C36N2O6
  ,fName: '	Cepharanoline'
-
+},{
 compound:C37H44O13
  ,fName: '	Taxagifine'
-
+},{
 compound:C37H48N2O8
  ,fName: '	Cytotrienin A'
-
+},{
 compound:C37H59N5O6
  ,fName: '	Caldoramide'
-
+},{
 compound:C37H64O6
  ,fName: '	Chamuvarinin'
-
+},{
 compound:C39H48N2O9
  ,fName: '	Kidamycin'
-
+},{
 compound:C40H48N6O10
  ,fName: '	Bouvardin'
-
+},{
 compound:C40H53NO14
  ,fName: '	Cosmomycin B'
-
+},{
 compound:C40H56
  ,fName: '	lycopene'
-
+},{
 compound:C40H60BNaO14
  ,fName: '	Aplasmomycin'
-
+},{
 compound:C41H50N2O10
  ,fName: '	Neopluramycin'
-
+},{
 compound:C41H50N2O11
  ,fName: '	Hedamycin'
-
+},{
 compound:C44H55NO16
  ,fName: '	Milataxel'
-
+},{
 compound:C44H69N15O9S
  ,fName: '	adrenorphin'
-
+},{
 compound:C48H56N10O12S6
  ,fName: '	Thiocoraline'
-
+},{
 compound:C52H48MoN4P4
  ,fName: '	Bis(dinitrogen)bis(1, 2 - bis(diphenylphosphino)ethane)molybdenum(0)'
-
+},{
 compound:C55H74IN3O21S4
  ,fName: '	calicheamicin'
-
+},{
 compound:C58H84N12O26
  ,fName: '	Mannopeptimycin glycopeptide'
-
+},{
 compound:C59H80N4O22S4
  ,fName: '	esperamicin'
-
+},{
 compound:C59H103N3O18
  ,fName: '	Niphimycin'
-
+},{
 compound:C60
  ,fName: '	Buckminsterfullerene'
-
+},{
 compound:C61H60N14O18S5
  ,fName: '	Nocathiacin I'
-
+},{
 compound:C62H89CoN13O15P
  ,fName: '	hydroxocobalamin'
-
+},{
 compound:C63H88CoN14O14P
  ,fName: '	Vitamin B12'
-
+},{
 compound:C63H88CoN14O14P
  ,fName: '	cyanocobalamin'
-
+},{
 compound:C63H91CoN13O14P
  ,fName: '	methylcobalamin'
-
+},{
 compound:C72H100CoN18O17P
  ,fName: '	adenosylcobalamin'
-
+},{
 compound:C76H52O46
  ,fName: '	Tannic acid'
-
+},{
 compound:C77H101N17O26
  ,fName: '	Surotomycin'
-
+},{
 compound:C77H120N18O26S
  ,fName: '	alpha - Endorphin'
-
+},{
 compound:C79H145N17O17
  ,fName: '	Paenibacterin'
-
+},{
 compound:C83H131N19O27S
  ,fName: '	gamma - Endorphin'
-
+},{
 compound:C131H200N30O43S2
  ,fName: '	amidorphin'
-
+},{
 compound:C158H251N39O46S
  ,fName: '	beta - Endorphin'
-
+},{
 compound:C161H236N42O48
  ,fName: '	leumorphin'
-
+},{
 compound:C164H256Na2O68S2
  ,fName: '	maitotoxin'
-
+},
 
 //==================
 CaAl2O4	calcium aluminate

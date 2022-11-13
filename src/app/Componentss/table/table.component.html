@@ -1,20 +1,42 @@
-<div class="periodic-table">
-  <div
-    *ngFor="let element of data"
-    #el
-    class="element"
-    [ngStyle]="{ 'grid-row': element.ypos, 'grid-column': element.xpos }"
-    [ngClass]="element.category"
+<div>
+  <div class="buttonsLegend">
     
-    (mouseenter)="canHover && onMouseEnter(element)"
-    (click)="selectElement(el, element)"
-  >
-    <div class="element-atomic-number">
-      <small className="number">{{ element.number }}</small>
-    </div>
-    <div class="element-data">
-      <strong class="element-symbol">{{ element.symbol }}</strong>
-      <span className="name" [ngStyle]="{'letter-spacing': element.name.length > 10 ? '-2px' : '0px' }">{{ element.name }}</span>
+  <button class="nobleGas">NOBLE GAS</button>
+  <button class="earthMetal">ALKALINE EARTH METAL</button>
+  <button class="nonMetal">DIATOMIC NONMETAL</button>
+  <button class="metal">ALKALI METAL</button>
+  <button class="transMetal">TRANSITIONAL METAL</button>
+  <button class="postTransMetal">POST-TRANSITIONAL METAL</button>
+  <button class="polyNonmetal">POLYATOMIC NONMETAL</button>
+  <button class="actinides">ACTINIDE</button>
+  <button class="lanthanides">LANTHANIDE</button>
+  <button class="metalloids">METALLOID</button>
+</div>
+  <div class="periodic-table">
+    <div
+      *ngFor="let element of data"
+      #el
+      class="element"
+      [ngStyle]="{ 'grid-row': element.ypos, 'grid-column': element.xpos }"
+      [ngClass]="element.category"
+      (mouseenter)="canHover && onMouseEnter(element)"
+      (click)="selectElement(el, element)"
+    >
+      <div class="element-atomic-number">
+        <small className="number">{{ element.number }}</small>
+      </div>
+      <div class="element-data">
+        <strong class="element-symbol">{{ element.symbol }}</strong>
+        <span
+          className="name"
+          [ngStyle]="{
+            'letter-spacing': element.name.length > 10 ? '-2px' : '0px'
+          }"
+          >{{ element.name }}</span
+        >
+      </div>
     </div>
   </div>
 </div>
+
+

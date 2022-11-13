@@ -21,6 +21,8 @@ import { HeaderComponent } from './Componentss/header/header.component';
     ExpandableTableComponent,
     InfoTabComponent,
     HeaderComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
