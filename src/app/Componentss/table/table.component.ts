@@ -1,3 +1,4 @@
+
 import { Input } from '@angular/core';
 import { EventEmitter } from '@angular/core';
 import { Output } from '@angular/core';
@@ -12,7 +13,8 @@ import { Element } from 'src/app/models/elements';
 export class TableComponent implements OnInit {
   @Input('data') data: Element[];
   @Output() dataEmitter = new EventEmitter<Element>();
-  canHover= true;
+  canHover = true;
+  selectedCategory: string
 
   // colorMap = {
   //   "Gas": "#FFBC42",
@@ -25,7 +27,8 @@ export class TableComponent implements OnInit {
   //   metalloid: "#73D2DE",
   // };
 
-  constructor() {}
+  constructor() { }
+
 
   ngOnInit(): void {
   }
@@ -36,8 +39,22 @@ export class TableComponent implements OnInit {
 
   selectElement(el: HTMLElement, element: Element) {
     el.classList.toggle('hovered');
-    
+
     this.canHover = !this.canHover;
     this.dataEmitter.emit(element);
   }
+
+  categoryChangeHandler(category: string) {
+    this.selectedCategory = category
+    if (category) {
+      this.data = this.data.map((element) => ({
+        ...element,
+        isActive: element.category === category ? true : false,
+      }));
+    }else {this.data = this.data.map((element) => ({
+      ...element,
+      isActive: true 
+    }));
+  }
+}
 }

@@ -51,4 +51,5 @@ export interface Element {
   electronAffinity?: number;
   electronegativityPauling?: number;
   v: number;
+  isActive: boolean
 }

@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.data = data;
+    this.data = data as Element[];
     this.selectedElement = this.data.find(el => el.symbol === 'H');
 
     // this.dataService.getData().subscribe((res: Element[]) => {

@@ -1,5 +1,5 @@
 <div>
-  <div class="buttonsLegend">
+  <!-- <div class="buttonsLegend">
     
   <button class="nobleGas">NOBLE GAS</button>
   <button class="earthMetal">ALKALINE EARTH METAL</button>
@@ -11,32 +11,43 @@
   <button class="actinides">ACTINIDE</button>
   <button class="lanthanides">LANTHANIDE</button>
   <button class="metalloids">METALLOID</button>
-</div>
+</div> -->
   <div class="periodic-table">
-    <div
-      *ngFor="let element of data"
-      #el
-      class="element"
-      [ngStyle]="{ 'grid-row': element.ypos, 'grid-column': element.xpos }"
-      [ngClass]="element.category"
-      (mouseenter)="canHover && onMouseEnter(element)"
-      (click)="selectElement(el, element)"
-    >
+    <div *ngFor="let element of data" #el class="element {{element.category}}"
+      [ngStyle]="{ 'grid-row': element.ypos, 'grid-column': element.xpos }" [ngClass]="{'is-hidden': !element.isActive}"
+      (mouseenter)="canHover && onMouseEnter(element)" (click)="selectElement(el, element)">
       <div class="element-atomic-number">
         <small className="number">{{ element.number }}</small>
       </div>
       <div class="element-data">
         <strong class="element-symbol">{{ element.symbol }}</strong>
-        <span
-          className="name"
-          [ngStyle]="{
+        <span className="name" [ngStyle]="{
             'letter-spacing': element.name.length > 10 ? '-2px' : '0px'
-          }"
-          >{{ element.name }}</span
-        >
+          }">{{ element.name }}</span>
       </div>
+    </div>
+    <div class="subgrid">
+      <div class="subgrid-buttons1">
+        <button class="base-category" (click)="categoryChangeHandler('noble-gas')">NOBLE GAS</button>
+        <button class="base-category" (click)="categoryChangeHandler('alkaline-earth-metal')">ALKALINE EARTH METAL</button>
+        <button class="base-category" (click)="categoryChangeHandler('diatomic-nonmetal')">DIATOMIC NONMETAL</button>
+        <button class="base-category" (click)="categoryChangeHandler('metalloid')">METALLOID</button>
+      </div>
+      <div class="subgrid-buttons2">
+        <button class="base-category" (click)="categoryChangeHandler('alkali-metal')">ALKALI METAL</button>
+        <button class="base-category" (click)="categoryChangeHandler('transition-metal')">TRANSITIONAL METAL</button>
+        <button class="base-category" (click)="categoryChangeHandler('post-transition-metal')">POST-TRANSITIONAL METAL</button>
+         <div class="subgrid-clearfilter">
+           <button *ngIf="selectedCategory" (click)="categoryChangeHandler('')">Clear filters</button>
+          </div>
+
+      </div>
+      <div class="subgrid-buttons3">
+        <button class="base-category" (click)="categoryChangeHandler('polyatomic-nonmetal')">POLYATOMIC NONMETAL</button>
+        <button class="base-category" (click)="categoryChangeHandler('actinide')">ACTINIDE</button>
+        <button class="base-category" (click)="categoryChangeHandler('lanthanide')">LANTHANIDE</button>
+      </div>
+
     </div>
   </div>
 </div>
-
-
